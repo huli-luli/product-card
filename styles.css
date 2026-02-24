@@ -17,15 +17,19 @@
 }
 
 .backgound-main {
-  position: absolute;
   margin-top: 0;
   margin-left: 200px;
   z-index: -1;
+  position: relative;
 }
 
 .background-main__img {
   width: 790px;
   height: 697px;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 0;
+  left: 93px;
 }
 
 .product-card__wrapper {
